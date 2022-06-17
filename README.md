@@ -1,2 +1,2 @@
 # dio-github-repositorio
-Desafio de criação de repositorio git/github
+Desafio de criação de repositório git/github DIO
