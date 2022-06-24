@@ -5,6 +5,8 @@ import src.main.kotlin.one.digitalinnovation.bank.Funcionario
 import src.main.kotlin.one.digitalinnovation.bank.Gerente
 
 fun main() {
-    val roberta = Gerente("Roberta", "123.456.789-98", 5000.0)
+    val roberta = Gerente("Roberta", "123.456.789-98", 5000.0, "senha123")
     ImprimeRelatorioFuncionario.imprime(roberta)
+
+    TesteAutenticacao().autentica(roberta)
 }
