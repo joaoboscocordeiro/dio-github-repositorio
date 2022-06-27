@@ -6,3 +6,4 @@ Orientação a Objeto no Kotlin
 - Criação de Enum
 - Conceito de Abstração
 - Polimorfismo
+- Conceito de Collections / Arrays
