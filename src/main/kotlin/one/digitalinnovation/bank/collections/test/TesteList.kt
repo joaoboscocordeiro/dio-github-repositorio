@@ -1,11 +1,9 @@
 package src.main.kotlin.one.digitalinnovation.bank.collections.test
 
-import src.main.kotlin.one.digitalinnovation.bank.Funcionario
-
 fun main() {
-    val joao = Funcionario("João", 2000.0, "CLT")
-    val pedro = Funcionario("Pedro", 1500.0, "PJ")
-    val maria = Funcionario("Maria", 4000.0, "CLT")
+    val joao = Functionary("João", 2000.0, "CLT")
+    val pedro = Functionary("Pedro", 1500.0, "PJ")
+    val maria = Functionary("Maria", 4000.0, "CLT")
 
     val funcionarios = listOf(joao, pedro, maria)
 
@@ -20,16 +18,4 @@ fun main() {
     funcionarios
         .groupBy { it.tipoContratacao }
         .forEach { println(it) }
-}
-
-data class Funcionario(
-    val nome: String,
-    val salario: Double,
-    val tipoContratacao: String
-) {
-    override fun toString(): String = """
-        >>>>>>>>>>>>>>>>>>>>>
-        Nome: $nome
-        Salario: $salario
-    """.trimIndent()
 }
