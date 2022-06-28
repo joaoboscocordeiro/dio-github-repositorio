@@ -6,7 +6,6 @@ data class Functionary(
     val tipoContratacao: String
 ) {
     override fun toString(): String = """
-        >>>>>>>>>>>>>>>>>>>>>
         Nome: $nome
         Salario: $salario
     """.trimIndent()
